@@ -1,0 +1,285 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="h1.css"/>
+<style>
+
+.center	
+{text-align:center;}
+
+.header{margin:-8px -8px 0px;
+background:linear-gradient(#999999,#CCCCCC);
+color:green;
+text-align:center;
+padding:10px;
+}
+
+
+.container{width:100%;}
+
+.textleft{width:15%;
+float:left;}
+
+.textright{width:15%;
+float:right;}
+
+.body{width:100%; float:left; 
+padding:0px;}
+
+.border{border-style:solid; border-width:2px;}
+
+.footer{margin:-8px -8px 0px;
+clear:both;
+background:
+linear-gradient(#999999,#CCCCCC);
+color:#000000;
+text-align:center;
+padding:10px;}
+
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.log {
+    background-color: red;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+ 
+    top: 35%;
+    width: 101.2%;
+    margin:0px -8px 0px;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+<title>Mechanical Engineering Department Faculty Info</title>
+</head>
+<body>
+
+<div class="header">
+<img src ="header.png" width="1300" height="150" align="top">
+</div>
+
+<div class="body">
+<ul>
+  <li><a  href="#home">HOME</a></li>
+  <li><a href="../Registration.php">REGISTRATION</a></li>
+  
+
+<li class="dropdown">
+    <a href="#" class="dropbtn">TIME TABLE</a>
+    <div class="dropdown-content">
+      <a href="#">Basic Science</a>
+      <a href="#">Civil Engineering</a>
+      <a href="#">Mechanical Engineering</a>
+
+<a href="#">Computer Science & Engineering</a>
+       <a href="#">Electrical & Electronics Engineering</a>
+      <a href="#">Electronics & Communication Engineering</a>
+         
+</div>
+  </li>
+
+
+<li class="dropdown">
+    <a href="#" class="dropbtn">SYLLABUS</a>
+    <div class="dropdown-content">
+      <a href="#">Basic Science</a>
+      <a href="#">Civil Engineering</a>
+      <a href="#">Mechanical Engineering</a>
+<a href="#">Computer Science & Engineering</a>
+       <a href="#">Electrical & Electronics Engineering</a>
+      <a href="#">Electronics & Communication Engineering</a>
+         
+</div>
+  </li>
+
+
+
+<li class="dropdown">
+    <a class="active" href="#" class="dropbtn">FACULTY INFO</a>
+    <div class="dropdown-content">
+      <a href="bstable.html">Basic Science</a>
+      <a href="cetable.html">Civil Engineering</a>
+      <a href="metable.html">Mechanical Engineering</a>
+<a href="cstable.html">Computer Science & Engineering</a>
+       <a href="extable.html">Electrical & Electronics Engineering</a>
+      <a href="ectable.html">Electronics & Communication Engineering</a>
+         
+</div>
+  </li>
+
+  <li style="float:right"><a class="log" href="#logout">Log Out</a></li>
+</ul>
+
+  
+
+<table border="2" cellpadding="5" align="center">
+<br>
+<h3 class="center"><u>MECHANICAL ENGINEERING DEPARTMENT FACULTY INFORMATION</u></h3>
+
+<br>
+<tr bgcolor="#666666" style="background-color:#FFFFFF">
+<th>Emp Code</th>
+<th>Name</th>
+<th>Mobile</th>
+<th>E-mail</th>
+</tr><tr>
+<td>SIRTSME0016</td>
+<td>Abhimanyu singh</td>
+<td>9826018367</td>
+<td>abhimech_er@rediffmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0020</td>
+<td>Abhishek kumar</td>
+<td>7869834693</td>
+<td>abhiiitg.3102@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0015</td>
+<td>Amit pandey</td>
+<td>9713002397</td>
+<td>amitpandey121@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0003</td>
+<td>Arunesh kumar kushwaha</td>
+<td>7509173264</td>
+<td>arunesh.mechcanical@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0012</td>
+<td>Gaurav kumar</td>
+<td>9039748491</td>
+<td>gaurav.sirt2010@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0013</td>
+<td>Neeraj dubey</td>
+<td>9329286837</td>
+<td>dubey_neeraj2576@yahoo.co.in</td>
+</tr>
+<tr>
+<td>SIRTSME0021</td>
+<td>Nitin singh</td>
+<td>9685457621</td>
+<td>thakurnitin.31@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0023</td>
+<td>Prashant sharma</td>
+<td>7581890911</td>
+<td>prashantsharma460@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0018</td>
+<td>P K vishwakrma</td>
+<td>9589769689</td>
+<td>push.vish80@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0011</td>
+<td>Rajesh kumar patel</td>
+<td>8602416681</td>
+<td>rpkajalsingh@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0022</td>
+<td>Samrat bhawsar</td>
+<td>9302929998</td>
+<td>sam_bhawser@rediffmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0019</td>
+<td>Sandeep kumar gupta</td>
+<td>9770427759</td>
+<td>sandeepgupta12336.com</td>
+</tr>
+<tr>
+<td>SIRTSME0008</td>
+<td>Santosh sanodiya</td>
+<td>9893561799</td>
+<td>santoshsanodiya09@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0014</td>
+<td>Shailentra dwivedi</td>
+<td>9424446591</td>
+<td>shailendrakdwivedigmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0004</td>
+<td>Shiva soni</td>
+<td>9826018367</td>
+<td>shiva.soni75@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0001</td>
+<td>Vidosh mahate</td>
+<td>8223033381</td>
+<td>vidoshmahate@gmail.com</td>
+</tr>
+<tr>
+<td>SIRTSME0017</td>
+<td>Vikas s pagey</td>
+<td>9826016159</td>
+<td>vikas_s_pagey007@gmail.com</td>
+</tr>
+</table>
+<br><br>
+<div class="footer">
+<p>copyright@Minor_Project</p></div>
+</html>

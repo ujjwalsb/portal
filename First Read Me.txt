@@ -1,0 +1,45 @@
+*********************************************************************************************************************
+*                                                                                                                                                                                                         *
+*                                                        WELCOME TO THE STUDENT PORTAL                                                                           *
+*                                                                                                                                                                                                         *
+*********************************************************************************************************************
+
+Presented By-
+	
+	UJJWAL SINGH BAGHEL
+	SHREYA SHUKLA
+	SHUBHAM KALAMBE
+	SUJATA SARKAR
+
+*********************************************************************************************************************
+
+Steps to make use of STUDENT Portal:-
+
+	1. Install the XAMPP server on your system.
+	2. After installing, Go to the following location----
+		    
+C:\xampp\htdocs\
+            OR 
+My Computer > Local Disk (C) > xampp > htdocs
+
+	3. Being in htdocs folder, Copy & Paste the full folder (Student_Portal) which is provided in the CD.
+	4. Now, open the XAMPP Control panel and START the APACHE & MySQL Services.
+	5. Then, open any Browser (Firefox, Recommended), and in the address bar type as follows---
+
+http://localhost/phpmyadmin
+
+	6.Then, from the above tags select IMPORT.
+	7. After selecting Import, click on BROWSE & select the Database file which is present in following location-
+
+My Computer > Local Disk (C) > xampp > htdocs > Student_Portal > .DataBase File > sportal.sql
+
+	8. Now, the database and tables have been imported to your system.
+	9. Now, type the following in the browser's address bar--
+
+http://localhost/student_portal/mainlogin.php
+
+	10. Now, you are ready to SignUp or Login to the Student Portal and access the services.
+
+
+
+THANK YOU.
